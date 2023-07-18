@@ -14,6 +14,8 @@ import CustomizedTimeline from "./Components/Timeline";
 import Projects from "./Components/Projects";
 import Articles from "./Components/Articles";
 import SiteInfo from "./Components/SiteInfo";
+import Resume from "./Components/Resume";
+
 
 function ProfileContent() {
   const [theme, colorMode] = useMode();
@@ -35,6 +37,8 @@ function ProfileContent() {
                   <Route  path = "Projects" element={<Projects/>} ></Route>
                   <Route  path = "Articles" element={<Articles/>} ></Route>
                   <Route  path = "SiteInfo" element={<SiteInfo/>} ></Route>
+                  <Route  path = "Resume" element={<Resume/>} ></Route>
+                  
                   </Routes>
               </main>
             </div>

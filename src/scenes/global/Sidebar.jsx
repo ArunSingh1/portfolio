@@ -100,7 +100,13 @@ const Sidebar = () => {
               setSelected={setSelected}
             />
 
-
+             <Item 
+              title="Download CV [EN, FR]"
+              to="/Resume"
+              // icon={<TravelExploreIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
 
             <Item
               title="Publications"
