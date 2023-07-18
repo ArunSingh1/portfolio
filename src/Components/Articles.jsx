@@ -19,7 +19,7 @@ function Articles() {
       <Header title="Meduim Articles" subtitle="More detailed work" />
 
 
-          <Typography color={colors.grey[500]} variant="h5">
+          <Typography color={colors.grey[100]} variant="h5">
           Step-by-Step Guide to Build an End-to-End Machine Learning Proof-of-Concept Using Open-Source Tools Published no April 20 2023
           <Button sx={{marginLeft:'5px'}} size='small' variant="outlined" onClick={(event)=>{
              window.open(articlelink)
@@ -28,17 +28,22 @@ function Articles() {
           </Button>
           </Typography>
 
-          <Typography marginTop={2} variant='h5'>
-          The article begins by highlighting the high costs associated with utilizing cloud architecture for retraining and deploying machine learning models. It suggests using open source tools, such as Docker, Python, Kubernetes, FastApi, Nginx, SSL, and Domains, to achieve cost-effective scalability for a proof of concept (POC) project. 
-          
+          <Typography marginTop={1} variant='h5'>
+           This is a overall steps that can be used in beginning of any POC project for easlier scalabity and cost effective deployment. 
+           </Typography>
+           
+           <Typography  marginTop={1} variant='h5'>
+           The article commences by emphasizing the expensive nature of cloud architecture when it comes to retraining and deploying machine learning models. It proposes the utilization of open-source tools like Docker, Python, Kubernetes, FastAPI, Nginx, SSL, and Domains to achieve cost-effective scalability for proof of concept (POC) projects. The suggested approach allows for a more affordable and efficient implementation of machine learning solutions.    
+           </Typography>
+
+
+
+          <Typography marginTop={1} variant='h5'>
+          This architecture can be leveraged for any software development as well.
+
           </Typography>
 
           <Typography marginTop={2} variant='h5'>
-          The article also mentions that this architecture can be leveraged for any software development as well.
-
-          </Typography>
-
-          <Typography marginTop={2.5} variant='h5'>
 
             Architecture Picture
 

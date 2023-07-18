@@ -16,11 +16,18 @@ function SiteInfo() {
 
         </Header>
         <Typography variant='h5'>
-            Why is site? A Single page CV is not enough, If i can build one , i can build one for me.
-            
+        What is the purpose of this website? 
         </Typography>
+        
+
         <Typography marginTop={2} variant='h5'>
-             Website is is build with NextJs, React, Material UI, hosted in Vercel and routed to my Google Domain 'arunsingh.net' 
+        A single-page CV may not provide enough information to demonstrate my skills and experience. If i can build a website, i can build one for me 😄
+
+        </Typography>
+
+
+        <Typography marginTop={2} variant='h5'>
+             Website is build with JS, React, Material UI, hosted in Vercel and routed to my Google Domain 'arunsingh.net' 
 
         </Typography>
 
