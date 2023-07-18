@@ -13,12 +13,16 @@ function Resume() {
     const theme = useTheme();
     const colors = tokens(theme.palette.mode);
 
+    // https://drive.google.com/file/d/1aD10ihzJb07L4KJCAxwLasb1uiXzLz5l/view?usp=sharing
+
     const onDownloadEng = () => {
         const link = document.createElement("a");
         link.download = `ArunSinghCV_FS.pdf`;
         link.href = "./ArunSinghCV_FS.pdf";
         link.click();
       };
+
+// https://drive.google.com/file/d/10TJGSj5Q07p0DHPKG5wzoscuGL65Rybw/view?usp=sharing
 
       const onDownloadFr = () => {
         const link = document.createElement("a");
@@ -39,10 +43,11 @@ function Resume() {
         </AccordionSummary>
 
         <AccordionDetails>
-            <Button variant='contained'  component="label" onClick={onDownloadEng}>
-                {/* <a href="/ArunSinghCV_FS.pdf" target="_blank" download>
-                    Download csv
-                </a> */}
+            <Button variant='contained'  component="label" onClick={()=>{
+                  
+                  window.open('https://drive.google.com/file/d/10TJGSj5Q07p0DHPKG5wzoscuGL65Rybw/view?usp=sharing')
+            }}>
+
                 Download
             </Button>
         </AccordionDetails>
@@ -57,10 +62,10 @@ function Resume() {
         </AccordionSummary>
 
         <AccordionDetails>
-            <Button variant='contained'  component="label" onClick={onDownloadFr}>
-                {/* <a href="/ArunSinghCV_FS.pdf" target="_blank" download>
-                    Download csv
-                </a> */}
+            <Button variant='contained'  component="label" onClick={()=>{
+                  window.open('https://drive.google.com/file/d/1aD10ihzJb07L4KJCAxwLasb1uiXzLz5l/view?usp=sharing')
+            }}>
+ 
                 Download
             </Button>
         </AccordionDetails>
