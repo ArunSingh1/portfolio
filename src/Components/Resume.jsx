@@ -45,7 +45,8 @@ function Resume() {
         <AccordionDetails>
             <Button variant='contained'  component="label" onClick={()=>{
                   
-                  window.open('https://drive.google.com/file/d/10TJGSj5Q07p0DHPKG5wzoscuGL65Rybw/view?usp=sharing')
+                  // window.open('https://drive.google.com/file/d/10TJGSj5Q07p0DHPKG5wzoscuGL65Rybw/view?usp=sharing')
+                  window.open('https://drive.google.com/file/d/1km6E97wojMYGFfXjpWSHARgcf54NUZ9Y/view?usp=sharing')
             }}>
 
                 Download
@@ -63,7 +64,8 @@ function Resume() {
 
         <AccordionDetails>
             <Button variant='contained'  component="label" onClick={()=>{
-                  window.open('https://drive.google.com/file/d/1aD10ihzJb07L4KJCAxwLasb1uiXzLz5l/view?usp=sharing')
+                 window.open('https://drive.google.com/file/d/1iqTFTSOezb4MZ25bRav4bJXu5we0lfu-/view?usp=sharing')
+                 // window.open('https://drive.google.com/file/d/1aD10ihzJb07L4KJCAxwLasb1uiXzLz5l/view?usp=sharing')
             }}>
  
                 Download
