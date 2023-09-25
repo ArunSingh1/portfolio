@@ -67,32 +67,57 @@ const AboutPage = () => {
         </Typography>
 
         
-        <Typography marginLeft={1} variant="h3" color={colors.greenAccent[400]}>
+        <Typography marginLeft={1} variant="h3" fontWeight={'bold'} fontStyle={"italic"} color={colors.greenAccent[400]}>
                     Full Stack Developer  
         </Typography> 
 
-        <Typography marginLeft={1} variant="h4" color={colors.grey[400]}>
-                    Villejuif - Paris - France - (+33) 780722088 - arunsinghmailid@gmail.com  
+        <Typography display="block" marginLeft={1} marginTop={1} variant="h4" color={colors.grey[400]}>
+                    {/* Villejuif - Paris - France - (+33) 780722088 - arunsinghmailid@gmail.com  */}
+
+                    📍 Villejuif - Paris - France <br/>
+                    📞 (+33) 780722088<br/>
+                    📧 arunsinghmailid@gmail.com<br/>
+
         </Typography> 
 
-        <Typography marginLeft={1} marginTop={1} variant="h4" color={colors.grey[100]}>
+        <Typography marginLeft={1} marginTop={5} variant="h4" color={colors.grey[100]}>
                     {/* Software Engineer with 5+ years for experience and holds a degree in Artificial Intelligence.  Possesses a diverse skill set
                     enabling efficient end-to-end development and deployment of software solutions. */}
 
                     {/* Passionate programmer with a master's degree in AI. Skilled in end-to-end software development in Python ,
                     data analysis, and deployment using advanced tools such as ELK, Docker, and Kubernetes. */}
 
-                    I am an experienced Full Stack Software Engineer with 5 years of expertise in software development. Holding a master's degree in AI, Experienced in Training and Deploying machine learning models. 
+                    {/* I am an experienced Full Stack Software Engineer with 5 years of expertise in software development. Holding a master's degree in AI, Experienced in Training and Deploying machine learning models.  */}
+                    {/* 🚀 Full Stack Developer by day, intergalactic problem solver by night! With 5 years of software wizardry up my sleeves and a master's degree in AI, I'm your go-to coder in the City of Love. */}
+
+
+                    🚀 I'm Arun, your friendly neighborhood Full Stack Developer, With a master's degree in AI tucked under my coding cap, I've spent 5 years mastering the art of software development. I'm your go-to coder in the City of Love.
+
 
         </Typography>
 
-        <Typography marginLeft={1} marginTop={1} variant="h4" color={colors.grey[100]}>
-                    I am proficient in React, JavaScript, Typescript for front-end, and Python, ExpressJS, Django, FastAPI for back-end development. 
+        <Typography marginLeft={1} marginTop={2.5} variant="h4" color={colors.grey[100]}>
+                    {/* I am proficient in React, JavaScript, Typescript for front-end, and Python, ExpressJS, Django, FastAPI for back-end development.  */}
+        
+                    💻 I speak two languages fluently: JavaScript, Typescript , React for the front-end ballet, and Python, Node, ExpressJS, and FastAPI for the back-end symphony. <br/>
+
+                    🛠️ Think of me as your Swiss Army knife of software engineering. I've got a diverse skill set that lets me create and launch software and Machine learning solutions faster than you can say "debug."       
+        
         </Typography> 
 
 
-        <Typography marginLeft={1} marginTop={1} variant="h4" color={colors.grey[100]}>
-                    Possesses a diverse skill set enabling efficient  development and deployment of software solutions
+        <Typography marginLeft={1} marginTop={2.5} variant="h4" color={colors.grey[100]}>
+                    {/* Possesses a diverse skill set enabling efficient  development and deployment of software solutions */}
+                    Feel free to take a peek at my past Skills and Projects right here on my portfolio! <br/>
+                    {/* If you're looking for a dynamic Full Stack Developer to join your crew, let's chat and set course for success!" */}
+        
+        </Typography>
+
+        <Typography marginLeft={1} marginTop={2.5} variant="h4" color={colors.grey[100]}>
+                    {/* Possesses a diverse skill set enabling efficient  development and deployment of software solutions */}
+                    {/* Feel free to take a peek at my past missions/projects right here on my portfolio! <br/> */}
+                    If you're looking for a dynamic Full Stack Developer to join your crew, let's chat and set course for success!"
+        
         </Typography>
 
         <Box marginTop={5}>

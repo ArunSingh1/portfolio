@@ -12,55 +12,56 @@ function Articles() {
     const colors = tokens(theme.palette.mode);
 
     const articlelink = 'https://medium.com/@arunsinghmailid/step-by-step-guide-to-build-an-end-to-end-machine-learning-proof-of-concept-using-open-source-dd6a6e28bd1b'
-
+    const articlelink2 = 'https://medium.com/stackademic/graphql-vs-rest-a-complete-guide-to-modern-api-development-a86409037b15'
 
   return (
     <Box m="20px">
-      <Header title="Meduim Articles" subtitle="More detailed work" />
+      <Header title="Meduim Articles" />
 
 
-          <Typography color={colors.grey[100]} variant="h5">
-          Step-by-Step Guide to Build an End-to-End Machine Learning Proof-of-Concept Using Open-Source Tools Published no April 20 2023
-          <Button sx={{marginLeft:'5px'}} size='small' variant="outlined" onClick={(event)=>{
-             window.open(articlelink)
-          }}>
-            Open Article
-          </Button>
+          <Typography color={colors.greenAccent[300]} fontSize ="bold" variant="h4">
+          
+          Step-by-Step Guide to Build an End-to-End Machine Learning Proof-of-Concept Using Open-Source Tools - April 20 2023 <br/>
+          
           </Typography>
 
-          <Typography marginTop={1} variant='h5'>
-           This is a overall steps that can be used in beginning of any POC project for easlier scalabity and cost effective deployment. 
+          <Typography marginTop={1} variant='h4'>
+           This is article has overall steps that can be followed from the beginning of any POC project for easlier scalabity and cost effective deployment. 
            </Typography>
+
+          <Box marginTop= {2}>
+  `          <Button  marginLeft= {1}  size='meduim' variant="outlined" onClick={(event)=>{
+              window.open(articlelink)
+            }}>
+              Open Article
+            </Button>`
+          
+          </Box>
+
+      
+          <Typography marginTop={2} color={colors.greenAccent[300]} fontSize ="bold" variant="h4">
+          
+          GraphQL vs. REST: A Complete Guide to Modern API Development - Aug 7 2023<br/>
+          
+          </Typography>
+
+          <Typography marginTop={1} variant='h4'>
+           {/* This is article has overall steps that can be followed from the beginning of any POC project for easlier scalabity and cost effective deployment.  */}
            
-           <Typography  marginTop={1} variant='h5'>
-           The article commences by emphasizing the expensive nature of cloud architecture when it comes to retraining and deploying machine learning models. It proposes the utilization of open-source tools like Docker, Python, Kubernetes, FastAPI, Nginx, SSL, and Domains to achieve cost-effective scalability for proof of concept (POC) projects. The suggested approach allows for a more affordable and efficient implementation of machine learning solutions.    
+           The choice of an API architecture plays an important role in shaping the efficiency, scalability, and overall success of your applications. In this article, we explore the fundamental differences, strengths, and limitations of REST and GraphQL.
+           
            </Typography>
 
-
-
-          <Typography marginTop={1} variant='h5'>
-          This architecture can be leveraged for any software development as well.
-
-          </Typography>
-
-          <Typography marginTop={2} variant='h5'>
-
-            Architecture Picture
-
-          </Typography>
-          <Box 
-                  component="img"
-                  sx={{
-                    // height: 75,
-                    // width: 130,
-                    maxHeight: { xs: 600, md: 550 },
-                    maxWidth: { xs: 650, md: 550 },
-                  }}
-                  src= {myImgSrc}
-
-                />
-
-
+          <Box marginTop= {2}>
+  `          <Button  marginLeft= {1}  size='meduim' variant="outlined" onClick={(event)=>{
+              window.open(articlelink2)
+            }}>
+              Open Article
+            </Button>`
+          
+          </Box>      
+      
+      
       </Box>
   )
 }

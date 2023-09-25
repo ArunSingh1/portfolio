@@ -238,6 +238,18 @@ function Skills() {
 
     <Stack direction={'row'} spacing={4}>
 
+
+    <Box>
+            <Typography
+            variant="h5"
+            color={colors.greenAccent[400]}
+            fontWeight="bold"
+            sx={{ m: "5px 0 5px 0" }}
+            >
+            Node/ExpressJS
+            </Typography>
+        </Box>        
+
         <Box>
             <Typography
             variant="h5"
@@ -271,16 +283,7 @@ function Skills() {
             </Typography>
         </Box>
 
-        <Box>
-            <Typography
-            variant="h5"
-            color={colors.greenAccent[400]}
-            fontWeight="bold"
-            sx={{ m: "5px 0 5px 0" }}
-            >
-            Docker
-            </Typography>
-        </Box>
+
     </Stack>
 
 
@@ -294,6 +297,17 @@ function Skills() {
     </Typography>
 
     <Stack direction={'row'} spacing={2}>
+
+    <Box>
+            <Typography
+            variant="h5"
+            color={colors.greenAccent[400]}
+            fontWeight="bold"
+            sx={{ m: "5px 0 5px 0" }}
+            >
+            Docker
+            </Typography>
+        </Box>
 
         <Box>
             <Typography
@@ -325,7 +339,7 @@ function Skills() {
             // fontWeight="bold"
             sx={{ m: "15px 0 5px 0" }}
         >
-            Version Control 
+            DevOps 
     </Typography>
 
     <Box>
@@ -335,7 +349,7 @@ function Skills() {
             fontWeight="bold"
             sx={{ m: "5px 0 5px 0" }}
             >
-            GIT
+            GIT GITLAB
             </Typography>
         </Box>
 

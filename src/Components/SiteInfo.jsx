@@ -21,7 +21,7 @@ function SiteInfo() {
         
 
         <Typography marginTop={2} variant='h5'>
-        A single-page CV may not provide enough information to demonstrate my skills and experience. If i can build a website, i can build one for me 😄
+        A single-page CV may not provide enough information to demonstrate my skills and experience. Thats Why , Also its Fun 😄
 
         </Typography>
 

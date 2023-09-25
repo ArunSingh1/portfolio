@@ -33,12 +33,12 @@ function Resume() {
 
   return (
     <Box  m="20px" >
-        <Header title="Experience" subtitle="More detailed work" />
+        <Header title="Resume" subtitle= ' To download -  click View and click download icon on the right corner'/>
 
         <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.greenAccent[500]} variant="h4">
-              Download English Version
+              CV English Version
           </Typography>
         </AccordionSummary>
 
@@ -46,10 +46,11 @@ function Resume() {
             <Button variant='contained'  component="label" onClick={()=>{
                   
                   // window.open('https://drive.google.com/file/d/10TJGSj5Q07p0DHPKG5wzoscuGL65Rybw/view?usp=sharing')
-                  window.open('https://drive.google.com/file/d/1km6E97wojMYGFfXjpWSHARgcf54NUZ9Y/view?usp=sharing')
+                  // window.open('https://drive.google.com/file/d/1km6E97wojMYGFfXjpWSHARgcf54NUZ9Y/view?usp=sharing')
+                  window.open('https://drive.google.com/file/d/1p0wbbKuB-6aY0ROkCo9-7kgDhEvg94LH/view?usp=sharing')
             }}>
 
-                Download
+                View
             </Button>
         </AccordionDetails>
         
@@ -58,17 +59,18 @@ function Resume() {
         <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.greenAccent[500]} variant="h4">
-              Download French Version
+              CV French Version
           </Typography>
         </AccordionSummary>
 
         <AccordionDetails>
             <Button variant='contained'  component="label" onClick={()=>{
-                 window.open('https://drive.google.com/file/d/1iqTFTSOezb4MZ25bRav4bJXu5we0lfu-/view?usp=sharing')
+                 window.open('https://drive.google.com/file/d/1bNSX2OMhCHhiBK5y-qIKmilPW4a_ZcaY/view?usp=sharing')
                  // window.open('https://drive.google.com/file/d/1aD10ihzJb07L4KJCAxwLasb1uiXzLz5l/view?usp=sharing')
+
             }}>
  
-                Download
+              View
             </Button>
         </AccordionDetails>
         

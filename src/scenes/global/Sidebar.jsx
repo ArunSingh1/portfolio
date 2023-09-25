@@ -93,7 +93,7 @@ const Sidebar = () => {
             />
             
              <Item 
-              title="Educational Timeline"
+              title=" Timeline"
               to="/Timeline"
               // icon={<TravelExploreIcon />}
               selected={selected}
