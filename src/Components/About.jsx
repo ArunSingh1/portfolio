@@ -43,7 +43,7 @@ const AboutPage = () => {
         flexDirection: 'column',
         justifyContent: 'space-between',
         height: '100vh',
-        backgroundImage: `url(${backgroundImage})`,
+        // backgroundImage: `url(${backgroundImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         color: '#fff',
