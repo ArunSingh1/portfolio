@@ -75,7 +75,14 @@ const Sidebar = () => {
               selected={selected}
               setSelected={setSelected}
             />
-  
+             <Item
+              title="Skills"
+              to="/Skills"
+              // icon={<PublicIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+
             <Item
               title="Work Experience"
               to="/Projects"
@@ -84,21 +91,21 @@ const Sidebar = () => {
               setSelected={setSelected}
             />
   
-            <Item
-              title="Skills"
-              to="/Skills"
-              // icon={<PublicIcon />}
+  <Item
+              title="Projects[under dev*]"
+              // to="/Projects"
+              // icon={<ManageSearchIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             
-             <Item 
+             {/* <Item 
               title=" Timeline"
               to="/Timeline"
               // icon={<TravelExploreIcon />}
               selected={selected}
               setSelected={setSelected}
-            />
+            /> */}
 
              <Item 
               title="Download CV [EN, FR]"

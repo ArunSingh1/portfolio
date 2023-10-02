@@ -293,6 +293,42 @@ function Skills() {
             // fontWeight="bold"
             sx={{ m: "15px 0 5px 0" }}
         >
+            Machine learning 
+    </Typography>
+
+    <Box>
+            <Typography
+            variant="h5"
+            color={colors.greenAccent[400]}
+            fontWeight="bold"
+            sx={{ m: "5px 0 5px 0" }}
+            >
+            Numpy, Pandas, Sklearn
+            </Typography>
+        </Box>
+
+        <Box>
+            <Typography
+            variant="h5"
+            color={colors.greenAccent[400]}
+            fontWeight="bold"
+            sx={{ m: "5px 0 5px 0" }}
+            >
+            Regression, Classification & NLP
+            </Typography>
+        </Box>
+
+
+    </Box>
+
+
+
+    <Typography
+            variant="h4"
+            color={colors.grey[100]}
+            // fontWeight="bold"
+            sx={{ m: "15px 0 5px 0" }}
+        >
             Deployment 
     </Typography>
 
@@ -358,7 +394,7 @@ function Skills() {
 
 
 
-    </Box>
+
 
   )
 }
