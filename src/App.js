@@ -15,6 +15,7 @@ import Projects from "./Components/Projects";
 import Articles from "./Components/Articles";
 import SiteInfo from "./Components/SiteInfo";
 import Resume from "./Components/Resume";
+import PersonalWork from "./Components/PersonalWork";
 
 
 function ProfileContent() {
@@ -38,6 +39,8 @@ function ProfileContent() {
                   <Route  path = "Articles" element={<Articles/>} ></Route>
                   <Route  path = "SiteInfo" element={<SiteInfo/>} ></Route>
                   <Route  path = "Resume" element={<Resume/>} ></Route>
+                  <Route  path = "Personal" element={<PersonalWork/>} ></Route>
+
                   
                   </Routes>
               </main>

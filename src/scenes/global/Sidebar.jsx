@@ -92,8 +92,8 @@ const Sidebar = () => {
             />
   
   <Item
-              title="Projects[under dev*]"
-              // to="/Projects"
+              title="Projects"
+              to="/Personal"
               // icon={<ManageSearchIcon />}
               selected={selected}
               setSelected={setSelected}
