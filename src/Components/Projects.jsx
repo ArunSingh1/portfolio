@@ -22,7 +22,7 @@ function Projects() {
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.greenAccent[500]} variant="h4">
-              Full Stack Developer - VINCI Engeries,  France [Nov2021 - June2023]
+              Full Stack Developer - VINCI Engeries,  France [Nov 2021 - June 2023]
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -95,7 +95,7 @@ and Business units and countries
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.greenAccent[500]} variant="h4">
-          Machine Learning Engineer PRODAPT Solutions, India [May2019 - Sept2020]
+          Machine Learning Engineer PRODAPT Solutions, India [May 2019 - Sept 2020]
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -147,7 +147,7 @@ Docker and Kubernetes.
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.greenAccent[500]} variant="h4">
-           Associate Software Engineer ACCENTURE Chennai, India [Nov2016 - Mar2018]
+           Associate Software Engineer ACCENTURE Chennai, India [Nov 2016 - Aug 2018]
           </Typography>
         </AccordionSummary>
         <AccordionDetails>

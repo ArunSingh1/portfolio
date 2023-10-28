@@ -91,7 +91,9 @@ const AboutPage = () => {
                     {/* 🚀 Full Stack Developer by day, intergalactic problem solver by night! With 5 years of software wizardry up my sleeves and a master's degree in AI, I'm your go-to coder in the City of Love. */}
 
 
-                    🚀 I'm Arun, your friendly neighborhood Full Stack Developer, With a master's degree in AI tucked under my coding cap, I've spent 5 years mastering the art of software development. I'm your go-to coder in the City of Love.
+                    🚀 I'm Arun, your friendly neighborhood Full Stack Developer, With a master's degree in Artificial Intelligence(AI) tucked under my coding cap, 
+                    <br>
+                    </br>I've spent 5 years mastering the art of software development I'm your go-to coder in the City of Love.
 
 
         </Typography>
