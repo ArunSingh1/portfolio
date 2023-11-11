@@ -96,7 +96,7 @@ const AboutPage = () => {
                     
                 
                   
-                    Over the course of 5 years, I've honed my skills in the world of software development, I'm your go-to coder in the City of Love.
+                    Over the course of 7 years, I've honed my skills in the world of software development, I'm your go-to coder in the City of Love.
 
 
         </Typography>
