@@ -22,7 +22,7 @@ function Projects() {
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.greenAccent[500]} variant="h4">
-              Full Stack Developer - VINCI Engeries,  France [Nov 2021 - June 2023]
+              Full Stack Developer - VINCI Engeries,  France [Nov 2021 - till]
           </Typography>
         </AccordionSummary>
         <AccordionDetails>

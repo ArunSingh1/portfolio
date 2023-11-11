@@ -91,9 +91,12 @@ const AboutPage = () => {
                     {/* 🚀 Full Stack Developer by day, intergalactic problem solver by night! With 5 years of software wizardry up my sleeves and a master's degree in AI, I'm your go-to coder in the City of Love. */}
 
 
-                    🚀 I'm Arun, your friendly neighborhood Full Stack Developer, With a master's degree in Artificial Intelligence(AI) tucked under my coding cap, 
-                    <br>
-                    </br>I've spent 5 years mastering the art of software development I'm your go-to coder in the City of Love.
+                    {/* 🚀 I'm Arun, your friendly neighborhood Full Stack Developer, With a master's degree in Artificial Intelligence(AI) tucked under my coding cap,  */}
+                    🚀 I'm Arun, your friendly neighborhood Full Stack Developer equipped with a master's degree in Artificial Intelligence (AI).
+                    
+                
+                  
+                    Over the course of 5 years, I've honed my skills in the world of software development, I'm your go-to coder in the City of Love.
 
 
         </Typography>
@@ -110,7 +113,7 @@ const AboutPage = () => {
 
         <Typography marginLeft={1} marginTop={2.5} variant="h4" color={colors.grey[100]}>
                     {/* Possesses a diverse skill set enabling efficient  development and deployment of software solutions */}
-                    Feel free to take a peek at my past Skills and Projects right here on my portfolio! <br/>
+                    Feel free to take a peek at my Skills and Projects right here on my portfolio! <br/>
                     {/* If you're looking for a dynamic Full Stack Developer to join your crew, let's chat and set course for success!" */}
         
         </Typography>
@@ -118,7 +121,7 @@ const AboutPage = () => {
         <Typography marginLeft={1} marginTop={2.5} variant="h4" color={colors.grey[100]}>
                     {/* Possesses a diverse skill set enabling efficient  development and deployment of software solutions */}
                     {/* Feel free to take a peek at my past missions/projects right here on my portfolio! <br/> */}
-                    If you're looking for a dynamic Full Stack Developer to join your crew, let's chat and set course for success!"
+                    If you're looking for a dynamic Full Stack Developer to join your crew, let's chat and set course for success!
         
         </Typography>
 

@@ -47,7 +47,7 @@ function Resume() {
                   
                   // window.open('https://drive.google.com/file/d/10TJGSj5Q07p0DHPKG5wzoscuGL65Rybw/view?usp=sharing')
                   // window.open('https://drive.google.com/file/d/1km6E97wojMYGFfXjpWSHARgcf54NUZ9Y/view?usp=sharing')
-                  window.open('https://drive.google.com/file/d/1Gn17X6ah9L9ls1xLojeyL18ldQiebmIQ/view?usp=sharing')
+                  window.open('https://drive.google.com/file/d/1cGOZmUIE2298dokCcZTWQZzdYHlNVXXU/view?usp=sharing')
             }}>
 
                 View
@@ -65,7 +65,7 @@ function Resume() {
 
         <AccordionDetails>
             <Button variant='contained'  component="label" onClick={()=>{
-                 window.open('https://drive.google.com/file/d/1q-xYZWwq0aQHC7-cGxPiCkSlG8lgiypm/view?usp=sharing')
+                 window.open('https://drive.google.com/file/d/1KjaLks2tn7A0qXIyOMnyA6xepcIOF5QV/view?usp=sharing')
                  // window.open('https://drive.google.com/file/d/1aD10ihzJb07L4KJCAxwLasb1uiXzLz5l/view?usp=sharing')
 
             }}>

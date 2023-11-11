@@ -314,9 +314,21 @@ function Skills() {
             fontWeight="bold"
             sx={{ m: "5px 0 5px 0" }}
             >
-            Regression, Classification & NLP
+            Regression, Classification,  NLP,  Deep Learning, Pytorch
             </Typography>
         </Box>
+
+
+        {/* <Box>
+            <Typography
+            variant="h5"
+            color={colors.greenAccent[400]}
+            fontWeight="bold"
+            sx={{ m: "5px 0 5px 0" }}
+            >
+            Deep Learning, Pytorch
+            </Typography>
+        </Box> */}
 
 
     </Box>
