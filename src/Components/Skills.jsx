@@ -22,7 +22,6 @@ function Skills() {
 
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'space-between',
         height: '100vh',
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: 'cover',
