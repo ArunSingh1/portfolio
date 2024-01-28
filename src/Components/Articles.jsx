@@ -6,6 +6,9 @@ import Typography from "@mui/material/Typography";
 import { tokens } from "../theme";
 import Header    from "../Components/Header";
 import myImgSrc from './articlepic.png';
+import backgroundImage from './bg1.jpg';
+
+
 
 function Articles() {
     const theme = useTheme();
@@ -15,7 +18,20 @@ function Articles() {
     const articlelink2 = 'https://medium.com/stackademic/graphql-vs-rest-a-complete-guide-to-modern-api-development-a86409037b15'
 
   return (
-    <Box m="20px">
+    <Box m="2px"
+    sx={{
+
+      display: 'flex',
+      flexDirection: 'column',
+
+      height: '100vh',
+      backgroundImage: `url(${backgroundImage})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      color: '#fff',
+    }}
+    
+    >
       <Header title="Meduim Articles" />
 
 
@@ -25,7 +41,7 @@ function Articles() {
           
           </Typography>
 
-          <Typography marginTop={1} variant='h4'>
+          <Typography marginTop={1} variant='h4' color={"primary"}>
            This is article has overall steps that can be followed from the beginning of any POC project for easlier scalabity and cost effective deployment. 
            </Typography>
 
@@ -45,7 +61,7 @@ function Articles() {
           
           </Typography>
 
-          <Typography marginTop={1} variant='h4'>
+          <Typography marginTop={1} variant='h4' color={"primary"}>
            {/* This is article has overall steps that can be followed from the beginning of any POC project for easlier scalabity and cost effective deployment.  */}
            
            The choice of an API architecture plays an important role in shaping the efficiency, scalability, and overall success of your applications. In this article, we explore the fundamental differences, strengths, and limitations of REST and GraphQL.

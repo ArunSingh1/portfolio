@@ -99,13 +99,13 @@ const Sidebar = () => {
               setSelected={setSelected}
             />
             
-             {/* <Item 
+             <Item 
               title=" Timeline"
               to="/Timeline"
               // icon={<TravelExploreIcon />}
               selected={selected}
               setSelected={setSelected}
-            /> */}
+            />
 
              <Item 
               title="Download CV [EN, FR]"

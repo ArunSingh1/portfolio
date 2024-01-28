@@ -8,6 +8,7 @@ import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { tokens } from "../theme";
 import Header    from "../Components/Header";
+import backgroundImage from './bg1.jpg';
 
 function Resume() {
     const theme = useTheme();
@@ -32,7 +33,20 @@ function Resume() {
       };
 
   return (
-    <Box  m="20px" >
+    <Box  m="2px"     
+    sx={{
+
+      display: 'flex',
+      flexDirection: 'column',
+
+      height: '100vh',
+      backgroundImage: `url(${backgroundImage})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      color: '#fff',
+    }}
+    
+    >
         <Header title="Resume" subtitle= ' To download -  click View and click download icon on the right corner'/>
 
         <Accordion defaultExpanded>

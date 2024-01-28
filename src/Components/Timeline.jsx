@@ -12,10 +12,25 @@ import Header from './Header';
 import { Box } from '@mui/material';
 import SchoolIcon from '@mui/icons-material/School';
 import WorkIcon from '@mui/icons-material/Work';
+import backgroundImage from './bg1.jpg';
+
 
 export default function CustomizedTimeline() {
   return (
-    <Box  m="20px">
+    <Box  m="2px"
+    sx={{
+
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'space-between',
+      height: '100vh',
+      backgroundImage: `url(${backgroundImage})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      color: '#fff',
+    }}
+    
+    >
     <Header  title="Educational" subtitle="More detailed work" >
         
     </Header>
@@ -38,8 +53,8 @@ export default function CustomizedTimeline() {
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2 }}>
-          <Typography variant="h5" component="span">
+        <TimelineContent sx={{ py: '12px', px: 2 }} color={"primary"}>
+          <Typography variant="h5" component="span" >
             Bachelors in Engineering
           </Typography>
           <Typography>Chennai India</Typography>
@@ -63,11 +78,11 @@ export default function CustomizedTimeline() {
           <TimelineConnector />
         </TimelineSeparator>
         
-        <TimelineContent sx={{ py: '12px', px: 2 }}>
-          <Typography variant="h5" component="span">
+        <TimelineContent sx={{ py: '12px', px: 2 }} color={"primary"}S>
+          <Typography variant="h5" component="span" color={"primary"} >
             Associate Software Engineer
           </Typography>
-          <Typography>Accenture India</Typography>
+          <Typography color={"primary"}>Accenture India</Typography>
         </TimelineContent>
       </TimelineItem>
       
@@ -89,7 +104,7 @@ export default function CustomizedTimeline() {
           </TimelineDot>
           <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2 }}>
+        <TimelineContent sx={{ py: '12px', px: 2 }} color={"primary"}>
           <Typography variant="h5" component="span">
             Diplomo in Data Science 
           </Typography>
@@ -114,7 +129,7 @@ export default function CustomizedTimeline() {
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2 }}>
+        <TimelineContent sx={{ py: '12px', px: 2 }} color={"primary"}>
           <Typography variant="h5" component="span">
             Machine Learning Engineer
           </Typography>
@@ -139,7 +154,7 @@ export default function CustomizedTimeline() {
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2 }}>
+        <TimelineContent sx={{ py: '12px', px: 2 }} color={"primary"}>
           <Typography variant="h5" component="span">
             Master's Artificial Intelligence AIS
           </Typography>
@@ -147,6 +162,7 @@ export default function CustomizedTimeline() {
         </TimelineContent>
       </TimelineItem>
     
+
 
       <TimelineItem>
 
@@ -164,15 +180,46 @@ export default function CustomizedTimeline() {
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2 }}>
+        <TimelineContent sx={{ py: '12px', px: 2 }} color={"primary"}>
           <Typography variant="h5" component="span">
             Data Scientist Intern- Full Stack Engineer
           </Typography>
-          <Typography>VINCI Energies International & Systems, VINCI Energies, Paris </Typography>
+          <Typography> VINCI Energies, Paris </Typography>
         </TimelineContent>
       </TimelineItem>
 
+      <TimelineItem>
+
+      <TimelineOppositeContent
+          sx={{ m: 'auto 0' }}
+          variant="body"
+          color="text.secondary"
+        >
+          Dec 2023 - Present
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+          <TimelineDot color="secondary">
+            <WorkIcon />
+          </TimelineDot>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent sx={{ py: '12px', px: 2 }} color={"primary"}>
+          <Typography variant="h5" component="span">
+            Full Stack Engineer
+          </Typography>
+          <Typography>OKOMERA, Paris </Typography>
+        </TimelineContent>
+      </TimelineItem>
+
+
+
+
+
       {/* <TimelineItem>
+
+
+
 
       <TimelineOppositeContent
           sx={{ m: 'auto 0' }}

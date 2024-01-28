@@ -7,8 +7,7 @@ import SkillBlock from './SkillBlock';
 
 import Header from './Header';
 import appLogo from './pythonlogo.png'
-
-
+import backgroundImage from './bg1.jpg';
 
 function Skills() {
 
@@ -18,7 +17,19 @@ function Skills() {
   return (
 
 
-    <Box m="20px">
+    <Box m="2px"
+    sx={{
+
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'space-between',
+        height: '100vh',
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        color: '#fff',
+      }}
+     >
 
         <Header  title="Skills" >
         

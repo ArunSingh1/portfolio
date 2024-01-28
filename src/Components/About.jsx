@@ -43,7 +43,7 @@ const AboutPage = () => {
         flexDirection: 'column',
         justifyContent: 'space-between',
         height: '100vh',
-        // backgroundImage: `url(${backgroundImage})`,
+        backgroundImage: `url(${backgroundImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         color: '#fff',
@@ -67,8 +67,8 @@ const AboutPage = () => {
         </Typography>
 
         
-        <Typography marginLeft={1} variant="h3" fontWeight={'bold'} fontStyle={"italic"} color={colors.greenAccent[400]}>
-                    Full Stack Developer  
+        <Typography marginLeft={1} variant="h3" fontWeight={'bold'}  color={colors.greenAccent[400]}>
+                    Full Stack Developer | Data Scientist | OKOMERA Paris 
         </Typography> 
 
         <Typography display="block" marginLeft={1} marginTop={1} variant="h4" color={colors.grey[400]}>
@@ -96,7 +96,7 @@ const AboutPage = () => {
                     
                 
                   
-                    Over the course of 7 years, I've honed my skills in the world of software development, I'm your go-to coder in the City of Love.
+                    Over the course of 7 years, I've honed my skills in the world of software development, I'm your go-to coder in the City of Love❤️
 
 
         </Typography>
