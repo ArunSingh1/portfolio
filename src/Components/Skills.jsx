@@ -27,6 +27,7 @@ function Skills() {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         color: '#fff',
+        
       }}
      >
 

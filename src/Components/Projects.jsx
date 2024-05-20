@@ -19,10 +19,54 @@ function Projects() {
     <Box m="20px">
       <Header title="Experience" subtitle="More detailed work" />
 
+{/* hkkjh */}
+<Accordion defaultExpanded>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography color={colors.greenAccent[500]} variant="h4">
+          Full Stack Developer - OKOMERA,  France [Nov 2023 - till]
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          
+          
+        <Typography variant="h5" marginTop={0}>
+        • Developed new features, refactored existing code, and resolved bugs in the Hemera application using JavaScript, Node.js, TypeScript, and NestJS.
+        </Typography>
+
+        <Typography variant="h5"  marginTop={1}>
+          • Conducted research and experimentation with LLGen AI, large language models (LLMs), and OpenAI APIs to explore innovative solutions and improve application functionality.
+        </Typography>
+
+        <Typography variant="h5"  marginTop={1}>
+          • Managed Docker and Kubernetes configurations, troubleshooting Kubernetes files, and addressing deployment issues.
+        </Typography>
+      
+            
+        <Typography variant="h5"  marginTop={1} >
+            Skills Aquired:  
+            <Button sx={{marginLeft:2}} variant="outlined"  size='small'> REACT </Button>
+            
+            {/* <Button variant="outlined"  size='small'> REACT  </Button> */}
+            <Button variant="outlined"  size='small'> MySQL </Button>
+            <Button variant="outlined"  size='small'> NestJS </Button>
+            <Button variant="outlined"  size='small'> Postgesql </Button>
+            <Button variant="outlined"  size='small'> Docker </Button>
+            <Button variant="outlined"  size='small'> Kubernetes </Button>
+            <Button variant="outlined"  size='small'> GenAI & LLMs </Button>
+            {/* <Button variant="outlined"  size='small'> RESTAPI development </Button> */}
+        </Typography>
+
+
+        </AccordionDetails>  
+      </Accordion>   
+
+
+{/* kjhkjhk */}
+
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.greenAccent[500]} variant="h4">
-              Full Stack Developer - VINCI Engeries,  France [Nov 2021 - till]
+              Full Stack Developer - VINCI Engeries,  France [Nov 2021 - June 2023]
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
