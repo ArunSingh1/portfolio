@@ -68,7 +68,7 @@ const AboutPage = () => {
 
         
         <Typography marginLeft={1} variant="h3" fontWeight={'bold'}  color={colors.greenAccent[400]}>
-                    Full Stack Developer | Data Scientist | OKOMERA Paris 
+                    Full Stack Developer | Data Scientist | Paris 
         </Typography> 
 
         <Typography display="block" marginLeft={1} marginTop={1} variant="h4" color={colors.grey[400]}>
